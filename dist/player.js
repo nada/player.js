@@ -902,6 +902,8 @@ function getOEmbedData(videoUrl) {
 function createEmbed(_ref, element) {
     var html = _ref.html;
 
+    console.log("xxxx")
+
     if (!element) {
         throw new TypeError('An element must be provided');
     }
